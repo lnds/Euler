@@ -1,3 +1,4 @@
+; problem 4 in project Euler
 
 (defn rev 
 	"reverse an integer number"
