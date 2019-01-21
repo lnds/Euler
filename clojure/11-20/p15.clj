@@ -37,3 +37,15 @@
         (println paths)
         (recur (inc i) (/ (* paths (- 40 i)) (inc i))  )))
 
+
+; memoization after reading the pdf
+
+(defn count-routes [n m]
+      (if (or (zero? n) (zero? m))
+        1
+        (+ (count-routes m (dec n)) (count-routes (dec m) n))))
+
+(def m-count-routes (memoize count-routes))
+
+
+(println (m-count-routes 20 20))
