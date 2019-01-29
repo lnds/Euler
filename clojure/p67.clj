@@ -1,3 +1,5 @@
+(ns p67)
+
 (def triangle
   (map #(Integer/parseInt %)(map #(reduce str %) (partition 2 2 (remove #(or (= \newline %) (= \  %))
                                                                         (seq (slurp "p67.txt")))))))
