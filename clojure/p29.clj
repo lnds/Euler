@@ -1,7 +1,4 @@
-
-(defn pow [b n] (apply *' (repeat n b)))
-
-
+(ns p29 (:use [math]))
 
 (println
   (->>

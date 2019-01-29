@@ -1,3 +1,4 @@
+(ns p28)
 ; size of square is 2*n+1
 ;
 (defn sum-diag [n]

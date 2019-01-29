@@ -1,4 +1,4 @@
-(defn pow [b n] (apply *' (repeat n b)))
+(ns p30 (:use [math]))
 
 (defn find-bases [n]
       (for [a (range 1 10)] (pow a n)))
