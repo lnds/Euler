@@ -24,3 +24,8 @@
       (filter #(zero? (rem n %)) (range 1 (inc (Math/sqrt n)))))
 
 
+(defn proper-divisors [n]
+      (if (= n 1)
+        []
+        (filter #(zero? (mod n %)) (range 1 n))))
+

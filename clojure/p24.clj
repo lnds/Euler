@@ -1,4 +1,4 @@
-(defn fact [n] (reduce *' (range 1 (inc n))))
+(ns p24 (:use [factorials]))
 
 (println
   (loop [digits (range 10)

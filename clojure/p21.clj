@@ -1,8 +1,5 @@
+(ns p21 (:use [factors]))
 
-(defn proper-divisors [n]
-      (if (= n 1)
-        []
-        (filter #(zero? (mod n %)) (range 1 n))))
 
 (defn d [n] (reduce +' (proper-divisors n)))
 
