@@ -1,7 +1,4 @@
-
-(defn divisors [n]
-      (filter #(zero? (rem n %)) (range 1 (inc (Math/sqrt n)))))
-
+(ns p12 (:use [factors]))
 
 ; tn[n] = n * (n+1)/2
 (defn triangle-num [n]
