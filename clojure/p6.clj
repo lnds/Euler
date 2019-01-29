@@ -1,3 +1,4 @@
+(ns p6)
 ; P6 of Euler Project
 
 (defn sum-n [n] (/ (* n (inc n)) 2))
