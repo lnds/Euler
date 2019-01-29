@@ -1,3 +1,5 @@
+(ns p17)
+
 (use '[clojure.string :only (join split)])
 
 (def digit-names ["one" "two" "three" "four" "five" "six" "seven" "eight" "nine"])

@@ -1,3 +1,4 @@
+(ns p19)
 (defn leap? [year]
       (or (and (zero? (mod year 4)) (not (zero? (mod year 100)))) (zero? (mod year 400))))
 
