@@ -1,3 +1,5 @@
+(ns p15)
+
 ; dynamic programming
 (let [mat (to-array-2d [[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1],
                                [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1],

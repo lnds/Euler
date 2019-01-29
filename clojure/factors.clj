@@ -20,6 +20,7 @@
         (zero? b) 0
         :else (* b (int (/ a (gcd a b))))))
 
-
 (defn divisors [n]
       (filter #(zero? (rem n %)) (range 1 (inc (Math/sqrt n)))))
+
+
