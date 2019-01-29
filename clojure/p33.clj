@@ -1,3 +1,5 @@
+(ns p33)
+
 (defn canceling [x y]
   (let [qx (quot x 10) rx (rem x 10)
         qy (quot y 10) ry (rem y 10)]

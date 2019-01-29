@@ -6,3 +6,8 @@
            (take-while pos?)
            (mapv #(mod % 10))
            rseq))
+
+
+(defn digits-to-num [digs]
+      (reduce + (map * (reverse digs) (iterate #(* 10 %) 1))))
+
