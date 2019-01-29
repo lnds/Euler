@@ -1,3 +1,5 @@
+(ns p26)
+
 (defn unit-fraction [denom]
       (loop [numer 1 i 1 known {}]
             (let [r (rem (* 10 numer) denom)]
