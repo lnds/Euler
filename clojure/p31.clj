@@ -1,3 +1,5 @@
+(ns p31)
+
 (println
       (let [end 201, amt 200]
            (reduce +

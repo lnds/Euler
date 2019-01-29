@@ -3,6 +3,9 @@
 (defn factor-of? [f n]
       (zero? (rem n f)))
 
+
+(defn multiple-of? [x n] (zero? (mod n x)))
+
 (defn prime-factors [f n]
       (cond
         (= n 1) (lazy-seq [])
