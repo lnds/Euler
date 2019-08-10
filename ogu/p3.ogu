@@ -1,0 +1,6 @@
+def multiplicar x y = x * y
+let doblar  = partial multiplicar 2
+let diez  = doblar 5
+let doce = doblar 6
+
+println! diez ,, doce
