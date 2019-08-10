@@ -1,0 +1,5 @@
+module Fibo
+
+def fib-seq = fib 0 1
+    where fib a b = lazy a :: fib b (a + b)
+

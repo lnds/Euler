@@ -1,0 +1,6 @@
+module P2
+require Fibo refer [fib-seq]
+
+
+fib-seq |> take-while \x -> x < 4000000 |> filter even? |> sum |> println!
+

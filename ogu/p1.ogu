@@ -1,0 +1,3 @@
+-- project euler problem 1
+
+union [3,6..999] [5,10..995] |> sum |> println!
